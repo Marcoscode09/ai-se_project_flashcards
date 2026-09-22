@@ -55,11 +55,14 @@ The responsive layouts were implemented based on the provided Flash Card App Fig
 
 Live Project:
 
-GitHub Pages link will be added here after deployment.
+https://marcoscode09.github.io/ai-se_project_flashcards/
 
 ## Project Pitch
 
-Project Pitch Video:
+Project Pitch Video: Check out [this video](https://drive.google.com/file/d/1GXym96XwwN-WieYCbuDI6ECuFkD5YjNy/view?usp=drive_link), where I describe my 
+ project and some challenges I faced while building it.
+
+
 
 Video link will be added here after recording.
 
