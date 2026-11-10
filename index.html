@@ -4,8 +4,8 @@
     <link rel="icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./assets/vendor/normalize.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/mobile-bar.css" />
 
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -75,40 +75,44 @@
       </section>
 
       <!-- DECK OPEN VIEW -->
-      <section
-        class="deck-view"
-        id="deck-view"
-        style="display: none"
-      >
-        <h2 class="deck-view__title"></h2>
+      
+<!-- DECK OPEN VIEW -->
+<section
+  class="deck-view"
+  id="deck-view"
+  style="display: none"
+>
+  <div class="deck-view__header">
+    <h2 class="deck-view__title"></h2>
 
-        <ul class="deck-view__cards"></ul>
+    <a class="deck-view__practice-btn" href="#">
+      Practice
+    </a>
+  </div>
 
-        <template id="card-template">
-          <li class="deck-view__card">
-            <p class="deck-view__card-text"></p>
+  <div class="deck-view__grid">
+    <ul class="deck-view__cards"></ul>
 
-            <button
-              class="deck-view__delete-btn"
-              type="button"
-              aria-label="Delete card"
-            ></button>
-          </li>
-        </template>
+    <button
+      class="deck-view__new-card-btn"
+      type="button"
+    >
+      + New Card
+    </button>
+  </div>
 
-        <div class="deck-view__actions">
-          <button
-            class="deck-view__new-card-btn"
-            type="button"
-          >
-            + New Card
-          </button>
+  <template id="card-template">
+    <li class="deck-view__card">
+      <p class="deck-view__card-text"></p>
 
-          <a class="deck-view__practice-btn" href="#">
-            Practice
-          </a>
-        </div>
-      </section>
+      <button
+        class="deck-view__delete-btn"
+        type="button"
+        aria-label="Delete card"
+      ></button>
+    </li>
+  </template>
+</section>
 
       <!-- CAROUSEL -->
       <section
