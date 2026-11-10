@@ -1,23 +1,10 @@
 
 /* MAIN STYLESHEET */
 
-/* Global layout */
-@import url("./page.css");
-
-/* Header and navigation */
-@import url("./header.css");
-
-/* Home page and deck cards */
-@import url("./decks.css");
-
-/* Open deck view */
-@import url("./deck-view.css");
-
-/* Flashcard carousel */
-@import url("./carousel.css");
-
-/* Footer */
-@import url("./footer.css");
-
-/* Mobile responsive styles */
+@import url("./Page.css");
+@import url("./Header.css");
+@import url("./Decks.css");
+@import url("./Deck-view.css");
+@import url("./Carousel.css");
+@import url("./Footer.css");
 @import url("./mobile-bar.css");
